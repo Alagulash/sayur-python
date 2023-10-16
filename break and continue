@@ -1,0 +1,20 @@
+# Ask first friend the movie they like. save it in a list
+# Ask another friend the same question.if the movie is in the first friend's list,
+# print "you both like "name of the movie"
+# continue untill they is atleast 3movies they both likes
+
+movies=input("What movie you like(movies separated by commas):")
+movielist=movies.split(",")
+common_movie=[]
+common_movie_count=0
+while True:
+    movie=input("What movie you like:")
+    if movie in movielist:
+        common_movie_count+=1
+        common_movie.append(movie)
+    if (common_movie_count>=3):
+        break;
+    else:
+        print("Try Again") 
+print()
+print(" ".join(common_movie))          
