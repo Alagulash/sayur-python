@@ -22,5 +22,5 @@ for i in range(5):
         print(f"thank you. you now have rs{total_money}.")
         break
     else:
-        print(f"thank you. yo now have rs{total_money}.")
+        print(f"thank you. you now have rs{total_money}.")
 print(f"congratulation! you got rs{total_money} by asking your parents{ask_count}times.")        
