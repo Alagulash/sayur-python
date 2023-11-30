@@ -17,4 +17,7 @@
 3 * 4 = 12
 3 * 5 = 15
 '''
-
+for i in range(3):
+    i=int(input("enter the number:"))
+    for num in range(1,6):
+        print(i,'x',num,'=',num*i)
