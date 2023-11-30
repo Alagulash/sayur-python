@@ -15,4 +15,13 @@ for i in range(3):
    print("Table",i)
    print("******")   
    for num in range(1,6):
-       print(num,'x',i,'=',num*i)
+       print(i,'x',num,'=',num*i)
+       
+       
+       
+'''
+  7.Challange questions
+Ask the user which tables he/she wants to print (eg 2,9,7,12)
+Also ask if they want to see the basic only or advanced only or both.
+Hint - use list to get the user input and learn how to use a list in range statement
+ '''   
